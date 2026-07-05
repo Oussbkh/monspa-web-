@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
-
+export const runtime = "edge"
 
 type CancelInfo = {
 	client_name: string;

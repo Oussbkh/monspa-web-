@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-
+export const runtime = "edge"
 export default function AdminLoginPage() {
 	const router = useRouter();
 	const [email, setEmail] = useState("");

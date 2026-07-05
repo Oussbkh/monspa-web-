@@ -975,7 +975,7 @@
 // }
 
 "use client";
-
+export const runtime = "edge"
 import { useState, useEffect } from "react";
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";

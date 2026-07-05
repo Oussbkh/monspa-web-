@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { PaymentElement, useStripe, useElements } from "@stripe/react-stripe-js";
-
+export const runtime = "edge"
 type Props = {
 	onConfirmed: (paymentIntentId: string) => Promise<{ success: boolean; error?: string }>;
 };

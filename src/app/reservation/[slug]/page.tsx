@@ -11,7 +11,7 @@ type ServiceDetail = {
 	form_schema: string;
 	home_available: number; // ✅ AJOUT
 };
-
+export const runtime = "edge"
 async function getService(slug: string): Promise<ServiceDetail | null> {
 	const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/services/${slug}`);
 	if (res.status === 404) return null;

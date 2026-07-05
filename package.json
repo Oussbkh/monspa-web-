@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "preview": "opennextjs-cloudflare build && wrangler pages dev .open-next/assets",
-    "deploy": "npx opennextjs-cloudflare build && wrangler pages deploy .open-next/assets --project-name=monspa-web"
+    "pages:build": "npx @cloudflare/next-on-pages"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.21",
@@ -24,6 +23,7 @@
     "react-dom": "19.2.4"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.16",
     "@opennextjs/cloudflare": "^1.20.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",

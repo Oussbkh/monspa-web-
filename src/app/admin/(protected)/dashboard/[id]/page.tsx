@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter, useParams } from "next/navigation";
-
+export const runtime = "edge"
 
 type Question = {
     key: string;

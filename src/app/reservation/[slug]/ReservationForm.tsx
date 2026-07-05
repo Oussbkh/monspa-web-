@@ -6,7 +6,7 @@ import { Elements } from "@stripe/react-stripe-js";
 import DynamicField from "./DynamicField";
 import PaymentStep from "./PaymentStep";
 import { computeSessionPrice } from "@/lib/pricing";
-
+export const runtime = "edge"
 type Question = {
 	key: string;
 	label: string;

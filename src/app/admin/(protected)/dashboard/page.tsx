@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { logout } from "@/lib/auth";
-
+export const runtime = "edge"
 type Booking = {
 	id: number;
 	client_name: string;

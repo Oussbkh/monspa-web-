@@ -8,7 +8,7 @@ import AvailabilityEditor from "@/components/admin/AvailabilityEditor";
 import DiscountTiersEditor from "@/components/admin/DiscountTiersEditor";
 import EmailConfigEditor from "@/components/admin/EmailConfigEditor";
 import ServiceImagesEditor from "@/components/admin/ServiceImagesEditor";
-
+export const runtime = "edge"
 type Question = {
 	key: string;
 	label: string;

@@ -7,7 +7,7 @@ type Question = {
 	required: boolean;
 	options?: string[];
 };
-
+export const runtime = "edge"
 type Props = {
 	question: Question;
 	value: string | string[];

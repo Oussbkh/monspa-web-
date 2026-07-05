@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
-
+export const runtime = "edge"
 export default function ReviewPage() {
 	const { token } = useParams<{ token: string }>();
 	const [info, setInfo] = useState<{ client_name: string; service_name: string } | null>(null);

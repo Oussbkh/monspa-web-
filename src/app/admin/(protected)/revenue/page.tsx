@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 const MONTHS = ["Jan","Fév","Mar","Avr","Mai","Jun","Jul","Aoû","Sep","Oct","Nov","Déc"];
-
+export const runtime = "edge"
 type Stats = {
 	pending_count: number;
 	accepted_count: number;

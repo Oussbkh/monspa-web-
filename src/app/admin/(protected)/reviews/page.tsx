@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
+export const runtime = "edge"
 type Review = {
 	id: number;
 	client_name: string;

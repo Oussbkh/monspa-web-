@@ -9,7 +9,7 @@ import interactionPlugin from "@fullcalendar/interaction";
 import frLocale from "@fullcalendar/core/locales/fr";
 import type { EventClickArg, EventDropArg } from "@fullcalendar/core";
 import "./calendar.css";
-
+export const runtime = "edge"
 type Booking = {
 	id: number;
 	client_name: string;
