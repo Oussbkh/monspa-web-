@@ -283,7 +283,7 @@ export default function CalendarPage() {
 							views={{
 								multiMonthThreeMonth: {
 									type: "multiMonth",
-									duration: { months: 4 },
+									duration: { months: 3 },
 								},
 							}}
 							events={events}
