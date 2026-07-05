@@ -7,7 +7,7 @@ type Service = {
 	duration_minutes: number;
 	image_key: string | null; // ✅ AJOUT
 };
-
+export const dynamic = 'force-dynamic';
 async function getServices(): Promise<Service[]> {
 	const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/services`);
 
