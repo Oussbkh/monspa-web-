@@ -48,7 +48,7 @@ type BookingDetail = {
 };
 
 const VIEWS = [
-	{ key: "multiMonthThreeMonth", label: "3 mois" },
+	{ key: "multiMonthFourMonth", label: "4 mois" },
 	{ key: "dayGridMonth", label: "Mois" },
 	{ key: "timeGridWeek", label: "Semaine" },
 	{ key: "timeGridDay", label: "Jour" },	
@@ -281,9 +281,9 @@ export default function CalendarPage() {
 							eventDrop={handleEventDrop}
 							datesSet={(arg) => setTitle(arg.view.title)}
 							views={{
-								multiMonthThreeMonth: {
+								multiMonthFourMonth: {
 									type: "multiMonth",
-									duration: { months: 3 },
+									duration: { months: 4 },
 								},
 							}}
 							events={events}
