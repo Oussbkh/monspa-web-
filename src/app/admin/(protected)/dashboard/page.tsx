@@ -77,7 +77,7 @@ export default function DashboardPage() {
 						<a href="/admin/services" className="text-sm text-stone-500 hover:text-stone-800">
 							Gérer les services
 						</a>
-						<a href="/admin/calendar" className="text-sm text-stone-500 hover:text-stone-800">
+						<a href="/admin/calendar" className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white shadow-[0_6px_0_#1d4ed8] transition-all duration-150 hover:bg-blue-700 hover:translate-y-[1px] hover:shadow-[0_5px_0_#1d4ed8] active:translate-y-[4px] active:shadow-[0_2px_0_#1d4ed8]">
 							Voir le calendrier
 						</a>
 						<a href="/admin/reviews" className="text-sm text-stone-500 hover:text-stone-800">
